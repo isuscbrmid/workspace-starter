@@ -6,7 +6,7 @@
         "center": true,
         "workstacks": [
           {
-            "name": "Developer Docs"
+            "name": "Headlines news"
           }
         ],
         "layout": {
@@ -31,42 +31,12 @@
                               "type": "component",
                               "componentName": "view",
                               "componentState": {
-                                "url": "https://developers.openfin.co/of-docs/docs/workspace-overview",
+                                "url": "http://local.dev.wsj.com:4000/search/realtime/company/?newstypes=coreNews%7ChdlineOnly&companytopics=anlyRate%7CcompanyMa%7CexecMove%7CinsTrade&searchparts=%5B%7B%22t%22%3A%22symbol%22%2C%22q%22%3A%22djn%3Adjnabout%3AFE%22%2C%22c%22%3A%22FE%22%2C%22n%22%3A%22FirstEnergy%20Corp.%22%2C%22cs%22%3A%22STOCK%2FUS%2FXNYS%2FFE%22%2C%22ds%22%3A%22FE%22%7D%5D&searchfilterstate=open&compact=true&searchFilterState=open",
                                 "componentName": "view",
                                 "interop": {
                                 }
                               },
-                              "title": "Workspace Docs"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "row",
-                      "height": 50,
-                      "content": [
-                        {
-                          "type": "column",
-                          "width": 100,
-                          "content": [
-                            {
-                              "type": "stack",
-                              "width": 100,
-                              "height": 100,
-                              "content": [
-                                {
-                                  "type": "component",
-                                  "componentName": "view",
-                                  "componentState": {
-                                    "url": "https://developer.openfin.co/docs/javascript/stable/index.html",
-                                    "componentName": "view",
-                                    "interop": {
-                                    }
-                                  },
-                                  "title": "OpenFin API Docs"
-                                }
-                              ]
+                              "title": "Headlines news"
                             }
                           ]
                         }
