@@ -1,0 +1,119 @@
+[
+  {
+    "appId": "local-newsplus-app",
+    "name": "local-newplus-app",
+    "title": "Newplus instance runing locally to test openfin features",
+    "description": "Newplus POC interaction",
+    "manifest": "http://local.dev.wsj.com:4000/public/local-manifest.json",
+    "manifestType": "view",
+    "icons": [
+      { "src": "http://local.dev.wsj.com:4000/favicon.ico" }
+    ],
+    "contactEmail": "contact@example.com",
+    "supportEmail": "support@example.com",
+    "publisher": "OpenFin",
+    "intents": [],
+    "images": [{
+      "src":"http://local.dev.wsj.com:4000/favicon.ico"
+    }],
+    "tags":["view", "interop"]
+  },
+  {
+    "appId": "expero-company-news",
+    "name": "expero-company-news",
+    "title": "Gateway - Company News",
+    "manifest": "https://openfin-iex.experolabs.com/openfin/manifests/company-news.json",
+    "manifestType": "view",
+    "icons": [
+      {
+        "src": "https://openfin-iex.experolabs.com/favicon.ico"
+      }
+    ],
+    "contactEmail": "contact@example.com",
+    "supportEmail": "support@example.com",
+    "publisher": "Expero",
+    "intents": [],
+    "images": [{
+      "src":"https://built-on-openfin.github.io/workspace-starter/workspace/v5.0.0/register-with-home/images/previews/expero-news-view.png"
+    }],
+    "tags":["expero", "view", "interop"]
+  },
+  {
+    "appId": "expero-description",
+    "name": "expero-description",
+    "title": "Gateway - Description",
+    "manifest": "https://openfin-iex.experolabs.com/openfin/manifests/description.json",
+    "manifestType": "view",
+    "icons": [
+      {
+        "src": "https://openfin-iex.experolabs.com/favicon.ico"
+      }
+    ],
+    "contactEmail": "contact@example.com",
+    "supportEmail": "support@example.com",
+    "publisher": "Expero",
+    "intents": [],
+    "images": [{
+      "src":"https://built-on-openfin.github.io/workspace-starter/workspace/v5.0.0/register-with-home/images/previews/expero-description-view.png"
+    }],
+    "tags":["expero", "view", "interop"]
+  },
+  {
+    "appId": "expero-stock-quote",
+    "name": "expero-stock-quote",
+    "title": "Gateway - Stock Quote",
+    "manifest": "https://openfin-iex.experolabs.com/openfin/manifests/stock-quote.json",
+    "manifestType": "view",
+    "icons": [
+      {
+        "src": "https://openfin-iex.experolabs.com/favicon.ico"
+      }
+    ],
+    "contactEmail": "contact@example.com",
+    "supportEmail": "support@example.com",
+    "publisher": "Expero",
+    "intents": [],
+    "images": [{
+      "src":"https://built-on-openfin.github.io/workspace-starter/workspace/v5.0.0/register-with-home/images/previews/expero-stock-view.png"
+    }],
+    "tags":["expero", "view", "interop"]
+  },
+  {
+    "appId": "notifications-generator",
+    "name": "notifications-studio",
+    "title": "OpenFin Notifications Studio",
+    "manifestType": "manifest",
+    "description": "Notifications Studio: This is OpenFin's tool for demonstrating the power of our Notification Center. Use it to create local notifications or use some of the examples shown in our Catalog. Experiment with our features and see the power that OpenFin Notification Center can bring to your applications.",
+    "manifest": "https://cdn.openfin.co/studio/notification/app.json",
+    "icons": [
+      { "src": "https://cdn.openfin.co/demos/notifications/generator/images/icon-blue.png"}
+    ],
+    "contactEmail": "contact@example.com",
+    "supportEmail": "support@example.com",
+    "publisher": "OpenFin",
+    "intents": [],
+    "images": [{
+      "src":"https://built-on-openfin.github.io/workspace-starter/workspace/v5.0.0/register-with-home/images/previews/openfin-notification-studio.png"
+    }],
+    "tags":["hero", "manifest", "tools"]
+  },
+  {
+    "appId": "openfin-process-manager",
+    "name": "openfin-process-manager",
+    "title": "OpenFin Process Manager",
+    "manifestType": "manifest",
+    "description": "Process Manager: This is OpenFin's tool for helping developers build OpenFin Applications. It lets you see the OpenFin applications that are running, the performance of the applications (memory and cpu) and easy access to the dev tools for the Windows of your application.",
+    "manifest": "https://cdn.openfin.co/process-manager/app.json",
+    "icons": [
+      { "src": "https://cdn.openfin.co/process-manager/img/proc-mgr-icon.png" }
+    ],
+    "contactEmail": "contact@example.com",
+    "supportEmail": "support@example.com",
+    "publisher": "OpenFin",
+    "intents": [],
+    "images": [{
+      "src":"https://built-on-openfin.github.io/workspace-starter/workspace/v5.0.0/register-with-home/images/previews/openfin-process-manager.png"
+    }],
+    "tags":["hero", "manifest", "tools"]
+  }
+]
