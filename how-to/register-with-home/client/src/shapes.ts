@@ -1,3 +1,5 @@
+import { App } from "@openfin/workspace-platform/client-api-platform/src/shapes"
+
 interface HomeProvider {
     id: string,
     title: string,
@@ -9,6 +11,7 @@ interface HomeProvider {
 
 interface AppProvider {
     appsSourceUrl: string,
+    apps: App[],
     includeCredentialOnSourceRequest?: "omit" | "same-origin" | "include"
 }
 export interface CustomSettings {
